@@ -15,17 +15,17 @@ int main()
 
    
 
-  // for (auto it = l.begin(); it != l.end(); it++)
-  // {
-  //   cout << *it << " " << endl;
-  // }
+  for (auto it = l.begin(); it != l.end(); it++)
+  {
+    cout << *it << " " << endl;
+  }
 
 
   
-  // for (auto it = l.rbegin(); it != l.rend(); it++)
-  // {
-  //   cout << *it << " " << endl;
-  // }
+  for (auto it = l.rbegin(); it != l.rend(); it++)
+  {
+    cout << *it << " " << endl;
+  }
 
-  // cout<<l.front()<<" "<<l.back()<<" "<<l.size()<<endl;
+  cout<<l.front()<<" "<<l.back()<<" "<<l.size()<<endl;
 }
