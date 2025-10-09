@@ -1,4 +1,3 @@
- // for (auto it = l.begin(); it != l.end(); it++)
-  // {
-  //   cout << *it << " " << endl;
-  // }
+
+  s.erase(10);
+  cout<<s.erase(10)<<" ";
