@@ -29,7 +29,7 @@ public:
       cout << "stack is empty \n";
       return -1;
     }
-    return arr.back();
+    return arr.back(); // return last element.
   }
   bool isEmpty()
   {
@@ -41,14 +41,16 @@ public:
   }
 };
 
-int  main(){
+int main()
+{
   Stack s;
+
   s.push(10);
   s.push(20);
-  // s.push(30);
-  // s.push(40);
-  // s.pop();
+  s.push(30);
+  s.push(40);
+  s.pop();
 
-  cout<<"Top element"<<s.top()<<endl;
-  cout<<"Size"<<s.size()<<endl;
+  cout << "Top element " << s.top() << endl;
+  cout << "Size " << s.size() << endl;
 }
